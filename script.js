@@ -1,5 +1,5 @@
 //your code here
-let arr = ['Tajmahal', 'Victoria Memorial', 'The Virupaksha Temple'];
+let touristSpots = ['Tajmahal', 'Victoria Memorial', 'The Virupaksha Temple'];
 //arr.sort()
 //consol.log(arr)
 function strip (word) {
@@ -7,7 +7,7 @@ function strip (word) {
     return word.replace(regex, '').trim()
 }
 
-const sortedTouristSpots  = arr.sort((a, b) => (strip(a) > strip(b)) ? 1 : -1)
+const sortedTouristSpots  = touristSpots.sort((a, b) => (strip(a) > strip(b)) ? 1 : -1)
 
 document.querySelector('#bands').innerHTML = 
     sortedTouristSpots.map(item => `<li>${item}</li>`).join('')

@@ -1,5 +1,5 @@
 //your code here
-let touristSpots = ['Tajmahal', 'Victoria Memorial', 'The Virupaksha Temple'];
+let touristSpots = ['The Virupaksha Temple', 'Victoria Memorial', 'Tajmahal'];
 //arr.sort()
 //consol.log(arr)
 function strip (word) {
